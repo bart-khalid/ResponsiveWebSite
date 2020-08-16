@@ -173,3 +173,32 @@ nav{
     }
       
 }
+@media screen and (max-width: 617px) {
+    .nav-links {
+        display: none;
+    }
+    body {
+        width: 130%;
+    }
+    header {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+    .cart{
+        flex: 1;
+    }
+    .logo {
+        flex: 1;
+    }
+    .cover{
+        align-items: center;
+    }
+    .laptop-select {
+        bottom: 0;
+        right: 50%;
+        transform: translate(70%, 0%);
+    }
+}
